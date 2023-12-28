@@ -4,6 +4,7 @@ import AllRest from './Components/AllRest';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import ViewRest from './Components/ViewRest';
+import { Image } from 'react-bootstrap';
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,10 @@ function App() {
         <Header />
       </header>
 
-      
+      <section id='banner'>
+        <Image  className='mt-5 banner-img' src='https://www.orchardtaunton.co.uk/app/uploads/2021/04/OSC-Spring-Welcome-Back-Website-Banner-Food-Drink-01.jpg'/>
+
+      </section>
 
       <section className='mt-5'>
 

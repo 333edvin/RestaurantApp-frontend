@@ -6,7 +6,7 @@ console.log(restaurants)
   return (
     <div>
       <Link to={`view/${restaurants.id}`} style={{color:"black"}}>
-      <Card style={{ height:"24rem" }} className='m-4'>
+      <Card style={{ height:"24rem" }}  className='m-4'>
     <Card.Img variant="top" src={restaurants.photograph} style={{width:"100%",height:"250px"}} />
     <Card.Body>
       <Card.Title>{restaurants.name}</Card.Title>
